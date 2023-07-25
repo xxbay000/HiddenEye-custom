@@ -51,6 +51,6 @@ if __name__ == "__main__":
 
     except KeyboardInterrupt:
         # When Keyword Interrupt Occurs script will use 8080 port.(Just To Remove Exception Errors)
-        port = "8080"
+        port = "80"
         simple_informant.exit_message(port)
         exit()
